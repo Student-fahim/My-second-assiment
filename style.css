@@ -2,8 +2,10 @@
     /* border: 1px solid red; */
     padding: 0;
     margin: 0;
+    border: 1px solid red;
 }
 body{
+    border: 2px dotted green;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -424,20 +426,12 @@ li{
         display:inline;
         flex-direction: column;
     }
+
     hr{
         display: block;
         background-color: rgb(249, 142, 2);
         height: 2px;
     }
-    /* .contenbox-1,.header{
-            flex-direction: column-reverse;
-            position: relative;
-            right: 120px;
-            bottom: 300px;
-    } */
-     .header{
-        align-items: ce;
-     }
     .navbar{
         
     }
@@ -495,4 +489,6 @@ li{
     .box,.text-f,.icon-1{
         display: none;
     }
-}
+     }
+    
+    
