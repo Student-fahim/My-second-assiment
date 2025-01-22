@@ -2,13 +2,19 @@
     /* border: 1px solid red; */
     padding: 0;
     margin: 0;
-    
-   
 }
 body{
+
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+.icon-nav{
+    display: none;
+}
+hr{
+    color: rgb(238, 164, 5);
+    display: none;
 }
 .navbar{
     display: flex;
@@ -94,48 +100,6 @@ a{
     color: white;
     background-color: black;
 }
-.contenbox-1-2-h4{
-    width: 700px;
-}
-.banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 120px;
-}
-.banner-title{
-    font-size: 3.2rem;
-    font-weight: 700;
-
-}
-.banner-title-1{
-    color: rgb(254, 163, 1);
-
-}
-.banner-title-2{
-    color: rgb(1, 172, 253);
-
-}
-.banner-discription{
-    font-size: 1rem;
-    font-weight: 400;
-    color: Black;
-}
-.button{
-    text-align: center;
-}
-.banner-button{
-    background-color: black;
-    padding: 10px 30px;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 12px;
-    ;
-    
-}
-
 /* this is main section */
 
 .main-section{
@@ -194,6 +158,44 @@ a{
     align-items: center;
     border: 2px solid black;
     gap: 35px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.banner-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+
+}
+.banner-title-1{
+    color: rgb(254, 163, 1);
+
+}
+.banner-title-2{
+    color: rgb(1, 172, 253);
+
+}
+.banner-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: Black;
+}
+.button{
+    text-align: center;
+}
+.banner-button{
+    background-color: black;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    ;
+    
 }
 .content{
     display: flex;
@@ -256,17 +258,115 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     position: relative;
     top: 40px;
 }
-.section-3{
+.section-4{
     margin-top: 30px;
+    background: url(box/item.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: cover;
 }
-.div{
+
+.section-3-1{
+    text-align: center;
+}
+.section-3-2{
+    font-size: 3rem;
+    padding: 20px;
+}
+.contentbox-4{
+    display: flex;
+    gap: 10px;
+}
+.box{
+    background-color: antiquewhite;
+}
+.contentbox-box{
     display: grid;
-    grid-template-columns: 2,1fr;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
 }
+.box4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.box{
+    height: 530px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+.contentbox4-1-h1{
+    width: 500px;
+    text-align: center;
+}
+.contentbox4-1-p{
+    text-align: center;
+    width: 500px;
+}
+.contentbox4-1-btn{
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 190px;
+    color: white;
+    background-color: rgb(149, 178, 38);
+    border: none;
+    border-radius: 10px;
+
+}
+.box-4-btn{
+    border: none;
+    position: relative;
+    bottom: 15px;
+    border-radius: 5px;
+    height: 30px;
+    background-color:rgb(149, 178, 38);
+    color: white;
+    padding: 5px;
+}
+.image{
+    border-radius: 5px;
+}
+.box-5-1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.view-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.view-1-2{
+    width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+.text-f{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text-f-h1{
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+}
+
 /* this is footer */
 
 .contentbox-f-1{
-    height: 300px;
+    /* height: 300px; */
     background-color: rgb(27, 201, 53);
     display: flex;
     align-items: center;
@@ -285,6 +385,10 @@ li{
 .i{
     max-width: 200px;
     gap: 20px;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
 }
 
 .contentbox-f--5{
@@ -314,6 +418,19 @@ li{
         padding-left: 430px;
         position: relative;
         top: 340px;
+        bottom: 50px;
+    }
+    .icon-nav{
+        justify-content: end;
+        display:inline;
+        position: relative;
+        left: 80px;
+        flex-direction: column;
+    }
+    hr{
+        display: block;
+        background-color: rgb(249, 142, 2);
+        height: 2px;
     }
     /* .contenbox-1,.header{
             flex-direction: column-reverse;
@@ -326,7 +443,6 @@ li{
      }
     .navbar{
         
-        visibility: hidden;
     }
     .section-3{
         background-position: center;
@@ -334,13 +450,44 @@ li{
     .contenbox-1-2,.contenbox-1-2-h4{
         width: 250px;
     }
+    ul,.navbar-btn1{
+        visibility: hidden;
+    }
+    
     .contenbox-1{
         flex-direction: column-reverse;
-        margin-bottom: 350px;
         justify-content: center;
         align-items: center;
         position: relative;
         right: 200px;
+        margin-bottom: 300px;
 
+    }
+    .ul-f{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .contentbox-box{
+        column-gap: -6;
+        grid-template-columns: repeat(2,1fr)
+    }
+    .contentbox-4{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contentbox-f-1{
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: start;
+        align-items: start;
+    }
+    .contentbox-f-1-2{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .box,.text-f,.icon-1{
+        display: none;
     }
 }
