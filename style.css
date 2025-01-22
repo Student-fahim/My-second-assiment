@@ -2,8 +2,10 @@
     /* border: 1px solid red; */
     padding: 0;
     margin: 0;
+    border: 1px solid red;
 }
 body{
+    border: 2px dotted green;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -403,11 +405,13 @@ li{
     margin-top: 10px;
 }
 @media screen and (max-width:570px) {
-    .content{
+     .content{
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+    body{
     }
     .contenbox-1{
         flex-direction: column-reverse;
@@ -420,18 +424,14 @@ li{
         bottom: 50px;
     }
     .icon-nav{
-        justify-content: end;
-        display:inline;
-        flex-direction: column;
+       flex-direction: column;
+       display: inline-block;
     }
 
     hr{
         display: block;
         background-color: rgb(249, 142, 2);
-        height: 2px;
-    }
-    .navbar{
-        
+        width: 50px;
     }
     .section-3{
         background-position: center;
@@ -461,11 +461,12 @@ li{
     .contentbox-box{
         column-gap: -6;
         width: 50px;
-        margin-left: 30px;
+        margin-left: -10px;
+        margin-left: 10px;
         grid-template-columns: repeat(2,1fr)
     }
     .box4{
-        max-width: 280px;
+        width:260px;
     }
     .image{
         width: 250px;
